@@ -58,21 +58,21 @@ print(MedRom.unidades_disponibles())  # ['pes', 'passus', 'stadium', 'mille_pass
 
 - **Romano a decimal**:
   ```bash
-  python -m PyRomano roman-to-decimal "XII·"
+  python -m PyRomano NumRom.a_decimal "XII·"
   # Salida: 12.083333333333334
   ```
 
 - **Decimal a romano**:
   ```bash
-  python -m PyRomano decimal-to-roman 12.5
+  python -m PyRomano NumRom.a_romano 12.5
   # Salida: XIIS
   ```
 
 - **Conversión de medidas**:
   ```bash
-  python -m PyRomano convert-measure 1 stadium passus
+  python -m PyRomano MedRom.conversion_unidades 1 stadium passus
   # Salida: 125.0
-  python -m PyRomano convert-measure 2 passus modern
+  python -m PyRomano MedRom.conversion_unidades 2 passus modern
   # Salida: 2.96
   ```
 
