@@ -94,7 +94,6 @@ print(MedRom.unidades_disponibles())  # ['pes', 'passus', 'stadium', 'mille_pass
 - **Fracciones**: Limitadas a doceavas (1/12 a 6/12), usando "S" (1/2) y "·" (1/12 y múltiplos).
 - **Medidas**: Las conversiones son aproximadas según valores históricos, excepto libra-uncia (exacta: 1 libra = 12 uncias).
 - **Entrada**: Solo caracteres básicos (`I`, `V`, `X`, `L`, `C`, `D`, `M`, `S`, `·`) para facilitar el uso.
-- **Exportación a LaTeX**: Actualmente no implementada, pero planeada para futuras versiones.
 
 ## Contribuir
 ¿Quieres mejorar `PyRomano`? Envía sugerencias o reportes de errores a contacto@criptogalicia.com.
